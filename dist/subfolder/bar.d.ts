@@ -1,0 +1,1 @@
+export declare function bar(name: string): string;

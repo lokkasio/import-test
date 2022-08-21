@@ -1,0 +1,38 @@
+{
+  "name": "import-test",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs"
+    },
+    "./sub": {
+      "types": "./dist/subfolder/index.d.ts",
+      "import": "./dist/subfolder/index.mjs"
+    },
+    "./sub/*": {
+      "types": "./dist/subfolder/*.d.ts",
+      "import": "./dist/subfolder/*.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokkasio/import-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lokkasio/import-test/issues"
+  },
+  "homepage": "https://github.com/lokkasio/import-test#readme"
+}
