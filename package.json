@@ -1,7 +1,18 @@
 {
-  "name": "import-test",
+  "name": "@lokkasio/import-test",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/lokkasio/import-test#readme",
+  "bugs": {
+    "url": "https://github.com/lokkasio/import-test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokkasio/import-test.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
   "exports": {
     ".": {
@@ -24,15 +35,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lokkasio/import-test.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lokkasio/import-test/issues"
-  },
-  "homepage": "https://github.com/lokkasio/import-test#readme"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
